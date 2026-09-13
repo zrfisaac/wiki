@@ -1,6 +1,10 @@
 # 📚 WIKI
 
-- <a href="/wiki/wiki.html">📚 WIKI</a>
+- [📚 WIKI](README)
+  - [🧩 Codigo](codigo/README)
+  - [🎮 Game](game/README)
+  - [🎺 Harmonica](harmonica/README)
+  - [💻 Software](software/README)
 
 ----
 
