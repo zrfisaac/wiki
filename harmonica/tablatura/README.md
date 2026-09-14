@@ -17,3 +17,4 @@
 	  - [📜 Summertime](harmonica/tablatura/summertime)
       - [📜 What a Wonderful World](harmonica/tablatura/what-a-wonderful-world)
       - [📜 When The Saints Go Marching In](harmonica/tablatura/when-the-saints-go-marching-in)
+      - [📜 You Raise Me Up](harmonica/tablatura/you-raise-me-up)
