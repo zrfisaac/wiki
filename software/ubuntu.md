@@ -1,8 +1,7 @@
-# 💻 Software
+# 🐧 Ubuntu
 
 - [📚 WIKI](README)
   - [💻 Software](software/README)
-    - [🐧 Manjaro](software/manjaro)
     - [🐧 Ubuntu](software/ubuntu)
 
 ----
