@@ -1,9 +1,9 @@
-# 📜 Blue Drag
+# 🎺 Blue Drag
 
 - [📚 WIKI](README)
   - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Blue Drag](harmonica/tablatura/blue-drag)
+    - [🎺 Tablatura](harmonica/tablatura/README)
+      - [🎺 Blue Drag](harmonica/tablatura/blue-drag)
 
 > **Harmônica** `C`
 

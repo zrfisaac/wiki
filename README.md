@@ -12,6 +12,8 @@
 
 [🧩 AnyDesk](https://zrfisaac.github.io/mint/anydesk.sh)
 
+[🧩 PS4 1.0](https://optitronoffical.github.io/1350-webkit-test/jb.html)
+
 ----
 
 ## `Notice` English
