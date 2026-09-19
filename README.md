@@ -15,6 +15,8 @@
 [🧩 PS4 01](https://optitronoffical.github.io/1350-webkit-test/jb.html)
 [🧩 PS4 02](https://raw13g.github.io/)
 
+[🧩 PS4 03](https://pkg-zone.com/install)
+
 ----
 
 ## `Notice` English
