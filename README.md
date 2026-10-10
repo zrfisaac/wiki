@@ -12,6 +12,7 @@
 
 [PS4](https://zrfisaac.github.io/fork.ps4-v01)
 [GET](https://zrfisaac.github.io/get.bat)
+[GIT](https://zrfisaac.github.io/choco/git.bat)
 
 ----
 
