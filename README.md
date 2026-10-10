@@ -10,8 +10,8 @@
 
 ----
 
-[🧩 PS4 V01](https://zrfisaac.github.io/fork.ps4-v01/)
-[🧩 PS4 V02](https://zrfisaac.github.io/fork.ps4-v02/)
+[PS4](https://zrfisaac.github.io/fork.ps4-v01)
+[GET](https://zrfisaac.github.io/get.bat)
 
 ----
 
