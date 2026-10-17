@@ -7,6 +7,8 @@
   - [🎺 Harmonica](harmonica/README)
   - [💻 Software](software/README)
   - [🎲 Tabuleiro](tabuleiro/README)
+  - [🧠 Teorias](teoria/README)
+  - [🌐 Web](web/README)
 
 ----
 
