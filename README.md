@@ -1,6 +1,7 @@
 # 📚 WIKI
 
 - [📚 WIKI](README)
+  - [🤖 Artificial](artificial/README)
   - [🧩 Codigo](codigo/README)
   - [🕹️ Console](console/README)
   - [🎮 Game](game/README)
