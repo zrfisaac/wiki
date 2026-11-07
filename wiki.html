@@ -12,7 +12,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Wiki pessoal de Isaac Caires Santana.">
-		<title>WIKI · ZRFISAAC</title>
+		<title>ZRWIKI</title>
 		<link rel="icon" href="/logo.webp">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/A5yncX/docsify-theme-darcula@v1.0/darcula.css">
 		<link rel="stylesheet" href="/content/fontawesome/css/all.min.css">
@@ -51,9 +51,9 @@
         </header>
 
         <div class="wiki-toolbar" role="navigation" aria-label="Navegação da wiki">
-            <a class="button button-primary" href="#/" id="wiki-home">
+            <button class="button button-primary" type="button" id="wiki-home" disabled>
                 <i class="fa-solid fa-house" aria-hidden="true"></i> Home
-            </a>
+            </button>
             <button class="button" type="button" id="wiki-back" disabled>
                 <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Voltar
             </button>
@@ -101,11 +101,9 @@
 		<!-- # : - script -->
 		<script>
 			<!-- # : - docsify - config -->
-			document.getElementById('wiki-home').addEventListener('click', function (event) {
-				if (location.hash === '#/' && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) {
-					event.preventDefault();
-					location.reload();
-				}
+			const wikiHome = document.getElementById('wiki-home');
+			wikiHome.addEventListener('click', function () {
+				location.hash = '#/';
 			});
 
 			const wikiBack = document.getElementById('wiki-back');
@@ -131,7 +129,7 @@
 						hook.doneEach(function () {
 							const isHome = ['/', '/README', '/README.md'].includes(vm.route.path);
 							wikiBack.disabled = isHome;
-							document.getElementById('wiki-home').classList.toggle('is-current', isHome);
+							wikiHome.disabled = isHome;
 							if (/(?:^|\/)README(?:\.md)?$/i.test(vm.route.path) || vm.route.path.endsWith('/')) {
 								document.querySelector('.markdown-section > h1 + ul')?.classList.add('wiki-index');
 							}

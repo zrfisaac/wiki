@@ -126,7 +126,7 @@
     font-size: 0.9rem;
 }
 
-.wiki .wiki-toolbar .button:is(.is-current, :disabled) {
+.wiki .wiki-toolbar .button:disabled {
     background: var(--surface);
     border-color: var(--border);
     box-shadow: none;
