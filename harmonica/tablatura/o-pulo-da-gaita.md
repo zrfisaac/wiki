@@ -1,10 +1,5 @@
 # 📜 O Pulo da Gaita
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 O Pulo da Gaita](harmonica/tablatura/o-pulo-da-gaita)
-
 ----
 
 `6` `-2` `-5` `5` `-4` `-2` `-2` `-2` `-2`  

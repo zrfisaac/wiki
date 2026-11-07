@@ -1,10 +1,5 @@
 # 📜 Bem Mais Que Tudo
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Bem Mais Que Tudo](harmonica/tablatura/bem-mais-que-tudo)
-
 ----
 
 `5` `6` `7` `-7` `-6` `-4` `-5` `-6` `-6` `6`  

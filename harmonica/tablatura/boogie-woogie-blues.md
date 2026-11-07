@@ -1,10 +1,5 @@
 # 📜 Boogie Woogie Blues
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎺 Tablatura](harmonica/tablatura/README)
-      - [🎺 Boogie Woogie Blues](harmonica/tablatura/boogie-woogie-blues)
-
 > **Harmônica** `C`
 
 ----

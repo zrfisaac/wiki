@@ -1,0 +1,175 @@
+.wiki {
+    --theme-color: #bfa5ff;
+}
+
+.wiki .sidebar,
+.wiki .sidebar-toggle {
+    display: none;
+}
+
+.wiki .site-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wiki .site-shell > main {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    min-width: 0;
+}
+
+.wiki main > .content {
+    position: static;
+    padding: 0 0 clamp(20px, 5vw, 64px);
+}
+
+.wiki :is(.markdown-section, .wiki-toolbar) {
+    width: min(var(--content-width), calc(100% - clamp(32px, 4vw, 64px)));
+    margin-inline: auto;
+}
+
+.wiki .markdown-section {
+    max-width: none;
+    padding: clamp(20px, 5vw, 52px);
+    color: var(--muted);
+    background: linear-gradient(150deg, var(--surface-light), var(--surface) 55%);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow-wrap: anywhere;
+}
+
+.wiki .markdown-section h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.15;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid var(--border-accent);
+}
+
+.wiki .markdown-section h2 {
+    font-size: clamp(1.3rem, 3vw, 1.75rem);
+}
+
+.wiki .markdown-section .anchor span {
+    color: var(--text);
+}
+
+.wiki .markdown-section a {
+    color: var(--theme-color);
+}
+
+.wiki .markdown-section a:hover {
+    text-decoration: underline;
+}
+
+.wiki a:focus-visible,
+.wiki button:focus-visible {
+    outline: 2px solid var(--theme-color);
+    outline-offset: 3px;
+}
+
+.wiki .markdown-section hr,
+.wiki .markdown-section :is(table, tr, td, th, iframe) {
+    border-color: var(--border);
+}
+
+.wiki .markdown-section :is(tr:nth-child(even), blockquote, p.tip) {
+    background: var(--surface-light);
+    color: var(--muted);
+}
+
+.wiki .markdown-section blockquote {
+    margin-inline: 0;
+    padding: 1px 1rem;
+}
+
+.wiki .markdown-section :is(pre, code, p.tip code) {
+    background: var(--background);
+}
+
+.wiki .markdown-section pre {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.wiki .markdown-section code {
+    color: var(--theme-color);
+}
+
+.wiki .markdown-section pre > code {
+    color: var(--text);
+    overflow-wrap: normal;
+}
+
+.wiki .markdown-section :is(em, blockquote p, p.tip em) {
+    color: inherit;
+}
+
+.wiki .markdown-section .docsify-copy-code-button {
+    background: var(--accent-dark);
+    border-radius: 0 10px 0 10px;
+    opacity: 1;
+}
+
+.wiki .wiki-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-block: clamp(16px, 3vw, 32px) 16px;
+}
+
+.wiki .wiki-toolbar .button {
+    min-height: 44px;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+}
+
+.wiki .wiki-toolbar .button:is(.is-current, :disabled) {
+    background: var(--surface);
+    border-color: var(--border);
+    box-shadow: none;
+    color: var(--muted);
+    filter: none;
+    transform: none;
+}
+
+.wiki .markdown-section > ul.wiki-index {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+
+    & > li > a {
+        display: flex;
+        align-items: center;
+        gap: 0.35em;
+        min-height: 58px;
+        padding: 12px 16px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        color: var(--text);
+    }
+
+    & > li > a:hover {
+        background: var(--surface-light);
+        border-color: var(--accent-light);
+    }
+}
+
+.wiki .language-button:disabled {
+    cursor: default;
+    opacity: 1;
+}
+
+.wiki .medium-zoom-overlay {
+    background: var(--background) !important;
+    z-index: 9998;
+}
+
+.wiki .medium-zoom-image--opened {
+    z-index: 9999;
+}

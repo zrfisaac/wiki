@@ -1,10 +1,5 @@
 # 📜 You Raise Me Up
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 You Raise Me Up](harmonica/tablatura/you-raise-me-up)
-
 > **Harmônica** `C`
 
 ----

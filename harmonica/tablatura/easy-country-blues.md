@@ -1,10 +1,5 @@
 # 📜 Easy Country Blues
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Easy Country Blues](harmonica/tablatura/easy-country-blues)
-
 > **Harmônica** `C`
 
 ----

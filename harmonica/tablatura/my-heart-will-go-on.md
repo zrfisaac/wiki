@@ -1,10 +1,5 @@
 # 📜 My Heart Will Go On
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 My Heart Will Go On](harmonica/tablatura/my-heart-will-go-on)
-
 ----
 
 `4` `4` `4` `4` `-3` `4`  

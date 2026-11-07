@@ -1,8 +1,5 @@
 # 🤖 GPT
 
-- [📚 WIKI](README)
-  - [🤖 Artificial](artificial/README)
-
 ----
 
 | Modelo                        | ID na API                | Entrada / 1M | Saída / 1M |

@@ -1,10 +1,5 @@
 # 📜 Imagine
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Imagine](harmonica/tablatura/imagine)
-
 ----
 
 `5` `6` `5` `6` `-7` `-7` `-6`  

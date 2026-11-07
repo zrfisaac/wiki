@@ -1,10 +1,5 @@
 # 📜 Vencendo Vem Jesus
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Vencendo Vem Jesus](harmonica/tablatura/vencendo-vem-jesus)
-
 ----
 
 `6` `6` `6` `-6` `6` `-5` `5` `6` `7` `-8` `8` `8` `8` `-8` `7`  

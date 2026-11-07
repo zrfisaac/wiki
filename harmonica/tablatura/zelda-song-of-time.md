@@ -1,10 +1,5 @@
 # 📜 Zelda Song Of Time
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Zelda Song Of Time](harmonica/tablatura/zelda-song-of-time)
-
 ----
 
 `-6` `-4` `-5`  

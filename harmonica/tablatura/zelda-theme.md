@@ -1,10 +1,5 @@
 # 📜 Zelda Theme
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Zelda Theme](harmonica/tablatura/zelda-theme)
-
 ----
 
 `4` `3` `3` `3` `3` `3` `3` `3` `3` `3` `3`  

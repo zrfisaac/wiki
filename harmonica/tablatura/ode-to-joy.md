@@ -1,10 +1,5 @@
 # 📜 Ode To Joy
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Ode To Joy](harmonica/tablatura/ode-to-joy)
-
 > **Harmônica** `C`
 
 ----

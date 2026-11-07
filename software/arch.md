@@ -1,9 +1,5 @@
 # 🐧 Arch Linux
 
-- [📚 WIKI](README)
-  - [💻 Software](software/README)
-    - [🐧 Arch Linux](software/arch)
-
 ----
 
 ```bash

@@ -1,10 +1,5 @@
 # 📜 Hallelujah
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Hallelujah](harmonica/tablatura/hallelujah)
-
 ----
 
 `5` `6` `6` `6` `6` `-6` `-6` `-6`  

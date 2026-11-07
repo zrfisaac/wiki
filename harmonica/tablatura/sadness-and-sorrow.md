@@ -1,10 +1,5 @@
 # 📜 Sadness And Sorrow
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Sadness And Sorrow](harmonica/tablatura/sadness-and-sorrow)
-
 ----
 
 `5` `4` `3...`  

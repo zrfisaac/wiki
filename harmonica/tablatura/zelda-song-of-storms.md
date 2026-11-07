@@ -1,10 +1,5 @@
 # 📜 Zelda Song Of Storms
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Zelda Song Of Storms](harmonica/tablatura/zelda-song-of-storms)
-
 ----
 
 `-4` `-5` `8`  

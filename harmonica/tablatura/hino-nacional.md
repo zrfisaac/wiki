@@ -1,10 +1,5 @@
 # 📜 Hino Nacional
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Hino Nacional](harmonica/tablatura/hino-nacional)
-
 ----
 
 `4` `-5` `5` `-5` `6` `-6` `6` `-6` `-7` `-7` `7` `-5`  

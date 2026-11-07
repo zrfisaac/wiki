@@ -1,10 +1,5 @@
 # 📜 Take Me Home
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Take Me Home](harmonica/tablatura/take-me-home)
-
 ----
 
 `4` `-4` `5` `5` `4` `-4` `5` `-4` `4` `5` `6` `-6`  

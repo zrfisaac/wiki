@@ -1,10 +1,5 @@
 # 📜 Fly Me To The Moon
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Fly Me To The Moon](harmonica/tablatura/fly-me-to-the-moon)
-
 > **Harmônica** `C`
 
 ----

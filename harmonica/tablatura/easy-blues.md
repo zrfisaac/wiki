@@ -1,10 +1,5 @@
 # 📜 Easy Blues 
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Easy Blues](harmonica/tablatura/easy-blues)
-
 > **Harmônica** `C`
 
 ----

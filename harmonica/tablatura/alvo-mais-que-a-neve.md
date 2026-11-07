@@ -1,10 +1,5 @@
 # 📜 Alvo Mais Que A Neve
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Alvo Mais Que A Neve](harmonica/tablatura/alvo-mais-que-a-neve)
-
 ----
 
 `5` `5` `-4` `5` `-4` `5` `-5` `6` `6`  

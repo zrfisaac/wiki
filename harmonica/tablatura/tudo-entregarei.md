@@ -1,10 +1,5 @@
 # 📜 Tudo Entregarei
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Tudo Entregarei](harmonica/tablatura/tudo-entregarei)
-
 ----
 
 `5` `5` `-5` `5` `-4` `-4` `5` `-4`  

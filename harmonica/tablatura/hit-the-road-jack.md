@@ -1,10 +1,5 @@
 # 📜 Hit The Road Jack
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Hit The Road Jack](harmonica/tablatura/hit-the-road-jack)
-
 > **Harmônica** `C`
 
 ----

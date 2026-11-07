@@ -1,10 +1,5 @@
 # 📜 Always On My Mind
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Always On My Mind](harmonica/tablatura/always-on-my-mind)
-
 ----
 
 `5` `-5` `6` `-5` `5` `5` `-4`  

@@ -1,9 +1,5 @@
 # 🐧 Linux Mint
 
-- [📚 WIKI](README)
-  - [💻 Software](software/README)
-    - [🐧 Linux Mint](software/mint)
-
 ----
 
 - [🧩 AnyDesk](https://zrfisaac.github.io/mint/anydesk.sh)

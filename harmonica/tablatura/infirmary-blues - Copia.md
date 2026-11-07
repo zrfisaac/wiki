@@ -1,10 +1,5 @@
 # 📜 Infirmary Blues
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Infirmary Blues](harmonica/tablatura/infirmary-blues)
-
 > **Harmônica** `C`
 
 ----

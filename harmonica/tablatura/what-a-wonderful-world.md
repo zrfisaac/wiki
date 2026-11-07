@@ -1,10 +1,5 @@
 # 📜 What a Wonderful World
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 What a Wonderful World](harmonica/tablatura/what-a-wonderful-world)
-
 > **Harmônica** `A`
 
 ----

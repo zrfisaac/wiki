@@ -1,10 +1,5 @@
 # 📜 Summertime 
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Summertime](harmonica/tablatura/summertime)
-
 > **Harmônica** `C`
 
 ----

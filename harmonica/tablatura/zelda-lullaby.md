@@ -1,10 +1,5 @@
 # 📜 Zelda's Lullaby
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Zelda's Lullaby](harmonica/tablatura/zelda-lullaby)
-
 ----
 
 `-7` `-8` `-6`  

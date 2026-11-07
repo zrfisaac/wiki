@@ -1,10 +1,5 @@
 # 📜 Good Mood Blues
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Good Mood Blues](harmonica/tablatura/good-mood-blues)
-
 > **Harmônica** `A`
 
 ----

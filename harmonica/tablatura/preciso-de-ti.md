@@ -1,10 +1,5 @@
 # 📜 Preciso De Ti
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Preciso De Ti](harmonica/tablatura/preciso-de-ti)
-
 ----
 
 `4` `4` `-4` `5` `5` `4` `4` `-4` `5` `-6` `4` `4`  

@@ -1,10 +1,5 @@
 # 📜 Firme Nas Promessas
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Firme Nas Promessas](harmonica/tablatura/firme-nas-promessas)
-
 ----
 
 `-5` `-5` `-5` `6` `-5` `4` `-4` `4` `-5` `6` `6`  

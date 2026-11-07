@@ -7,112 +7,137 @@
 
 <!-- # [ html ] -->
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="pt-BR">
 	<head>
-		<!-- # : - data -->
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-		<meta name="description" content="Docsify example made by Isaac Caires Santana.">
-
-		<!-- # : - title -->
-		<title>📚 WIKI</title>
-
-		<!-- # : - icon -->
-		<link rel="shortcut icon" href="logo.png">
-
-		<!-- # : - theme -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Wiki pessoal de Isaac Caires Santana.">
+		<title>WIKI · ZRFISAAC</title>
+		<link rel="icon" href="/logo.webp">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/A5yncX/docsify-theme-darcula@v1.0/darcula.css">
-
-		<!-- # : - fontawesome -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
-		<!-- # : - css -->
-		<style>
-			.sidebar {
-				display: none !important;
-				width: 0 !important;
-			}
-
-			.content {
-				left: 0 !important;
-			}
-
-			.sidebar-toggle {
-				display: none !important;
-			}
-			.markdown-section {
-				max-width: 100% !important;
-				padding: 10px 32px !important;
-			}
-
-			.floating-back {
-				align-items: center;
-				backdrop-filter: blur(10px);
-				background: rgba(34, 39, 46, 0.86);
-				border: 1px solid rgba(255, 255, 255, 0.16);
-				border-radius: 50%;
-				box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32);
-				color: #f2f4f8;
-				display: inline-flex;
-				height: 52px;
-				justify-content: center;
-				position: fixed;
-				right: 18px;
-				text-decoration: none;
-				top: 18px;
-				transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
-				width: 52px;
-				z-index: 1000;
-			}
-
-			.floating-back:hover,
-			.floating-back:focus {
-				background: rgba(46, 54, 64, 0.96);
-				border-color: rgba(255, 255, 255, 0.28);
-				color: #ffffff;
-				text-decoration: none;
-				transform: translateY(-1px);
-			}
-
-			.floating-back:focus-visible {
-				outline: 2px solid #8ab4ff;
-				outline-offset: 3px;
-			}
-
-			.floating-back i {
-				font-size: 24px;
-			}
-
-			.medium-zoom-overlay {
-				background: #1f2227 !important;
-				z-index: 9998;
-			}
-
-			.medium-zoom-image--opened {
-				z-index: 9999;
-			}
-		</style>
+		<link rel="stylesheet" href="/content/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="/content/style.css?v=20261005-clipboard">
+		<link rel="stylesheet" href="content/wiki.css">
 	</head>
-	<body>
-		<!-- # : - menu -->
-		<nav class="navbar navbar-expand-lg">
-			<ul class="navbar-nav ms-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="/">ZRFISAAC</a>
-				</li>
-			</ul>
-		</nav>
+	<body class="wiki">
+    <div class="site-shell">
+        <header class="header">
+            <div class="container navigation">
+                <a class="brand" href="/">
+                    <img src="/logo.webp" alt="Logo ZRFISAAC">
+                    <span>
+                        <strong>ZRF</strong>ISAAC
+                        <small>Simples de entender, fácil de usar.</small>
+                    </span>
+                </a>
 
-		<!-- # : - main -->
-		<div id="app"></div>
+                <!-- Docsify takes ownership of the first native nav element. -->
+                <div class="navigation-links" role="navigation" aria-label="Navegação principal">
+                    <a href="/">Início</a>
+                    <a href="/apps.html">Aplicativos</a>
+                    <a href="/games.html">Jogos</a>
+                    <a href="/programs.html">Programas</a>
+                    <a href="/contact.html">Contato</a>
+                    <a href="/resume.html">Currículo</a>
+                    <a href="#/" aria-current="page">WIKI</a>
+                </div>
+
+                <div class="language">
+                    <button class="language-button" type="button" aria-label="Idioma fixo: Português" disabled>PT <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
+                </div>
+
+                <button class="menu-button" type="button" aria-label="Abrir menu"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+            </div>
+        </header>
+
+        <div class="wiki-toolbar" role="navigation" aria-label="Navegação da wiki">
+            <a class="button button-primary" href="#/" id="wiki-home">
+                <i class="fa-solid fa-house" aria-hidden="true"></i> Home
+            </a>
+            <button class="button" type="button" id="wiki-back" disabled>
+                <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Voltar
+            </button>
+        </div>
+
+        <div id="app" role="status">Carregando a wiki…</div>
+
+        <footer id="contato" class="container footer">
+            <div>
+                <a class="brand" href="/">
+                    <img src="/logo.webp" alt="">
+                    <span><strong>ZRF</strong>ISAAC</span>
+                </a>
+                <p>Simples de entender, fácil de usar.</p>
+                <p>© 2026 Isaac Caires Santana.</p>
+            </div>
+
+            <div>
+                <h2>Navegação</h2>
+                <a href="/apps.html">Aplicativos</a>
+                <a href="/programs.html">Programas</a>
+                <a href="/games.html">Jogos</a>
+                <a href="/privacy.html">Privacidade</a>
+                <a href="#/">WIKI</a>
+            </div>
+
+            <div>
+                <h2>Conecte-se</h2>
+                <a href="https://github.com/zrfisaac">GitHub</a>
+                <a href="https://linkedin.com/in/zrfisaac">LinkedIn</a>
+                <a href="https://youtube.com/@zrfisaac">YouTube</a>
+                <a href="mailto:zrfisaac@gmail.com">E-mail</a>
+            </div>
+
+            <div>
+                <h2>Contato</h2>
+                <p>Tem uma ideia ou oportunidade?</p>
+                <a class="button button-primary" href="https://wa.me/5571983980801">Fale comigo <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </footer>
+    </div>
+
+		<script src="/content/site.js?v=20261005-clipboard" defer></script>
 
 		<!-- # : - script -->
 		<script>
 			<!-- # : - docsify - config -->
+			document.getElementById('wiki-home').addEventListener('click', function (event) {
+				if (location.hash === '#/' && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) {
+					event.preventDefault();
+					location.reload();
+				}
+			});
+
+			const wikiBack = document.getElementById('wiki-back');
+			wikiBack.addEventListener('click', function () {
+				const route = location.hash.split('?')[0];
+				if (['', '#/', '#/README', '#/README.md'].includes(route)) {
+					return;
+				}
+
+				if (history.length > 1) {
+					history.back();
+				} else {
+					location.hash = '#/';
+				}
+			});
+
 			window.$docsify = {
-				name: '📚 WIKI',
+				name: 'WIKI',
 				auto2top: true,
 				loadSidebar: false,
+				plugins: [
+					function (hook, vm) {
+						hook.doneEach(function () {
+							const isHome = ['/', '/README', '/README.md'].includes(vm.route.path);
+							wikiBack.disabled = isHome;
+							document.getElementById('wiki-home').classList.toggle('is-current', isHome);
+							if (/(?:^|\/)README(?:\.md)?$/i.test(vm.route.path) || vm.route.path.endsWith('/')) {
+								document.querySelector('.markdown-section > h1 + ul')?.classList.add('wiki-index');
+							}
+						});
+					},
+				],
 				maxLevel: 0,
 				subMaxLevel: 3,
 				search: {
@@ -121,13 +146,9 @@
 					depth: 2,
 				},
 				copyCode: {
-					buttonText: '📋',
-					errorText: '❌',
-					successText: '✅',
-				},
-				darklightTheme: {
-				  defaultTheme: 'dark',
-				  toggleTheme: false
+					buttonText: 'Copiar',
+					errorText: 'Erro',
+					successText: 'Copiado',
 				},
 			};
 		</script>

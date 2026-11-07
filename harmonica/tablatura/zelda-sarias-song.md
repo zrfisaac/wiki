@@ -1,10 +1,5 @@
 # 📜 Zelda Saria's Song
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Zelda Saria's Song](harmonica/tablatura/zelda-sarias-song)
-
 ----
 
 `-5` `-6` `-7`  

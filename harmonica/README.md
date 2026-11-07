@@ -1,9 +1,7 @@
 # 🎺 Harmonica
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎺 Tablatura](harmonica/tablatura/README)
-	- [🎺 Técnicas](harmonica/tecnica/README)
+- [🎺 Tablatura](harmonica/tablatura/README)
+- [🎺 Técnicas](harmonica/tecnica/README)
 
 ----
 

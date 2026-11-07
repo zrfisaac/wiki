@@ -1,10 +1,5 @@
 # 📜 Smooth Slow Blues
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Smooth Slow Blues](harmonica/tablatura/smooth-slow-blues)
-
 > **Harmônica** `C`
 
 ----

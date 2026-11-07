@@ -1,10 +1,5 @@
 # 📜 When The Saints Go Marching In
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 When The Saints Go Marching In](harmonica/tablatura/when-the-saints-go-marching-in)
-
 > **Harmônica** `C`
 
 ----

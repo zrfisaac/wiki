@@ -1,10 +1,5 @@
 # 📜 Anunciação
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Anunciação](harmonica/tablatura/anunciacao)
-
 ----
 
 `6` `-6` `-7` `7` `-7` `-6` `6` `5` `6` `-6` `6` `-6` `-6`  

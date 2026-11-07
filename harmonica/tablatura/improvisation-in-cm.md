@@ -1,10 +1,5 @@
 # 📜 Improvisation In Cm
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Improvisation In Cm](harmonica/tablatura/improvisation-in-cm)
-
 > **Harmônica** `C`
 
 ----

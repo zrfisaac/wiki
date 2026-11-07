@@ -1,11 +1,9 @@
 # 🕹️ Console
 
-- [📚 WIKI](README)
-  - [🕹️ Console](console/README)
-    - [🕹️ Genéricos](console/README)
-    - [🕹️ Nintendo](console/nintendo)
-    - [🕹️ PlayStation](console/README)
-    - [🕹️ Steam](console/README)
-    - [🕹️ XBOX](console/xbox1)
+- [🕹️ Genéricos](console/generico/README)
+- [🕹️ Nintendo](console/nintendo/README)
+- [🕹️ PlayStation](console/playstation/README)
+- [🕹️ Steam](console/steam/README)
+- [🕹️ XBOX](console/xbox/README)
 
 ----

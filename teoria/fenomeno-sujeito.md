@@ -1,8 +1,5 @@
 # 🧠 Fenômeno do Sujeito
 
-- [📚 WIKI](README)
-  - [🧠 Teorias](teoria/README)
-
 Uma hipótese sobre a existência do sujeito que experiencia, sua possível interação com o cérebro e sua relação com a realidade física.
 
 > **Aviso:** Esta é uma hipótese pessoal desenvolvida a partir de reflexões, percepções subjetivas e interpretações de conceitos científicos e filosóficos. Não se trata de uma teoria cientificamente comprovada, tampouco de uma extensão formal da Orch-OR. As ideias apresentadas — e cada uma de suas camadas — podem estar corretas, parcialmente corretas ou completamente equivocadas, independentemente umas das outras. A seção sobre inteligências artificiais e uma possível revolta das máquinas é um exercício de consequências condicionais, não uma previsão ou alegação sobre as IAs atuais. Meu objetivo não é demonstrar que estou certo, mas investigar a natureza de um fenômeno que percebo e buscar sua verdadeira explicação, independentemente de qual seja.

@@ -1,10 +1,5 @@
 # 📜 Viva La Vida
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Viva La Vida](harmonica/tablatura/viva-la-vida)
-
 ----
 
 `8` `8` `8` `8` `-9` `-8`  

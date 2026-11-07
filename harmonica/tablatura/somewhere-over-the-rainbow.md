@@ -1,10 +1,5 @@
 # 📜 Somewhere Over The Rainbow
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Somewhere Over The Rainbow](harmonica/tablatura/somewhere-over-the-rainbow)
-
 ----
 
 `4` `7` `-7` `6` `-6` `-7` `7`  

@@ -1,10 +1,5 @@
 # 📜 Amazing Grace
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Amazing Grace](harmonica/tablatura/amazing-grace)
-
 ----
 
 `6` `7` `8` `7` `8` `-8` `7` `-6` `6`  

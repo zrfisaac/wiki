@@ -1,10 +1,5 @@
 # 📜 Jingle Bells
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Jingle Bells](harmonica/tablatura/jingle-bells)
-
 ----
 
 `6` `8` `-8` `7` `6`  

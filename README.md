@@ -1,15 +1,14 @@
 # 📚 WIKI
 
-- [📚 WIKI](README)
-  - [🤖 Artificial](artificial/README)
-  - [🧩 Codigo](codigo/README)
-  - [🕹️ Console](console/README)
-  - [🎮 Game](game/README)
-  - [🎺 Harmonica](harmonica/README)
-  - [💻 Software](software/README)
-  - [🎲 Tabuleiro](tabuleiro/README)
-  - [🧠 Teorias](teoria/README)
-  - [🌐 Web](web/README)
+- [🤖 Artificial](artificial/README)
+- [🧩 Codigo](codigo/README)
+- [🕹️ Console](console/README)
+- [🎮 Game](game/README)
+- [🎺 Harmonica](harmonica/README)
+- [💻 Software](software/README)
+- [🎲 Tabuleiro](tabuleiro/README)
+- [🧠 Teorias](teoria/README)
+- [🌐 Web](web/README)
 
 ----
 

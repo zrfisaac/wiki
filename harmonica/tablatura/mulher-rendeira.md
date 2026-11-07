@@ -1,10 +1,5 @@
 # 📜 Mulher Rendeira
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Mulher Rendeira](harmonica/tablatura/mulher-rendeira)
-
 ----
 
 `5` `6` `6` `5` `4` `-5` `-5`  

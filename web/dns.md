@@ -1,8 +1,5 @@
 # 🌐 DNS
 
-- [📚 WIKI](README)
-  - [🌐 Web](web/README)
-
 ----
 
 ### Cloudflare

@@ -1,10 +1,5 @@
 # 📜 Rude Cruz
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Rude Cruz](harmonica/tablatura/rude-cruz)
-
 ----
 
 `5` `5` `-5` `6` `-6` `6` `5` `6` `-6` `-6` `-7` `-6`  

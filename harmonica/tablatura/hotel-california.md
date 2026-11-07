@@ -1,10 +1,5 @@
 # 📜 Hotel California
 
-- [📚 WIKI](README)
-  - [🎺 Harmonica](harmonica/README)
-    - [🎼 Tablatura](harmonica/tablatura/README)
-      - [📜 Hotel California](harmonica/tablatura/hotel-california)
-
 ----
 
 `8` `8` `8` `-8` `-8` `-8` `8`  
