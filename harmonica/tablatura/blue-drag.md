@@ -1,6 +1,5 @@
 # 🎺 Blue Drag
 
-> **Harmônica** `C`
 
 ----
 

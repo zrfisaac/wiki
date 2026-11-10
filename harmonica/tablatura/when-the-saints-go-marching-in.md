@@ -1,20 +1,23 @@
 # 📜 When The Saints Go Marching In
 
-> **Harmônica** `C`
 
 ----
 
 `4` `5` `-5` `6` | `4` `5` `-5` `6`  
 Oh when the Saints, Oh when the Saints
 
-`4` `5` `-5` `6` `5` `4` `5` `-4`  
+```harmonica
+4 5 -5 6 5 4 5 -4
 Oh when the Saints go marching in
+```
 
 `5` `5` `-4` `4` | `4` `5` `6` `6` `-5`  
 Lord, I want to be in that number
 
-`5` `-5` `6` `5` `4` `-4` `4`  
+```harmonica
+5 -5 6 5 4 -4 4
 When the Saints go marching in
+```
 
 ----
 

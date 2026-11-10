@@ -1,6 +1,5 @@
 # 📜 Fly Me To The Moon
 
-> **Harmônica** `C`
 
 ----
 

@@ -1,9 +1,12 @@
 # 📚 WIKI
 
+- [🏕️ Acampamento](acampamento/README)
 - [🤖 Artificial](artificial/README)
+- [⚡ Circuito](circuito/README)
 - [🧩 Codigo](codigo/README)
 - [🕹️ Console](console/README)
-- [🎮 Game](game/README)
+- [🌱 Cultivo](cultivo/README)
+- [🎮 Jogos](jogo/README)
 - [🎺 Harmonica](harmonica/README)
 - [💻 Software](software/README)
 - [🎲 Tabuleiro](tabuleiro/README)

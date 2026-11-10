@@ -1,6 +1,5 @@
 # 📜 What a Wonderful World
 
-> **Harmônica** `A`
 
 ----
 

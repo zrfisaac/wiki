@@ -1,0 +1,130 @@
+.wiki .harmonica-player {
+    display: grid;
+    gap: 18px;
+    margin: 24px 0;
+}
+
+.wiki .harmonica-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.wiki .harmonica-play {
+    flex: 0 0 34px;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    border: 1px solid var(--border-accent);
+    border-radius: 50%;
+    background: var(--surface-light);
+    color: var(--theme-color);
+    cursor: pointer;
+}
+
+.wiki .harmonica-play:hover,
+.wiki .harmonica-play.is-playing {
+    background: var(--theme-color);
+    color: var(--background);
+}
+
+.wiki .harmonica-line-content {
+    min-width: 0;
+}
+
+.wiki .harmonica-notes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.wiki .harmonica-note {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: var(--harmonica-note-width, 28px);
+    min-width: var(--harmonica-note-width, 28px);
+    flex-shrink: 0;
+    padding: 3px 6px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--background);
+    color: var(--theme-color);
+    font-family: inherit;
+    font-size: 0.95em;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.wiki .harmonica-note.is-pause {
+    color: var(--muted);
+    border-style: dashed;
+}
+
+.wiki .markdown-section td.is-harmonica-note-cell {
+    padding: 0;
+}
+
+.wiki .markdown-section .harmonica-table-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    margin: 4px auto;
+    padding: 0;
+    border: 1px solid var(--border-accent);
+    border-radius: 50%;
+    background: var(--surface);
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.wiki .markdown-section .harmonica-table-note:hover,
+.wiki .markdown-section .harmonica-table-note:focus-visible {
+    background: var(--surface-light);
+    color: var(--theme-color);
+    outline: 0;
+}
+
+.wiki .markdown-section ul.tablatura-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+    gap: 12px;
+    margin: 26px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wiki .markdown-section ul.tablatura-list > li {
+    min-width: 0;
+    margin: 0;
+}
+
+.wiki .markdown-section ul.tablatura-list > li > a {
+    display: flex;
+    align-items: center;
+    min-height: 58px;
+    gap: 8px;
+    padding: 12px 18px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--surface), var(--surface-light));
+    color: var(--text);
+    text-decoration: none;
+    transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.wiki .markdown-section ul.tablatura-list > li > a:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-light);
+    background: var(--surface-light);
+    text-decoration: none;
+}
+
+.wiki .harmonica-lyric {
+    color: var(--muted);
+}

@@ -1,6 +1,5 @@
 # 📜 Summertime 
 
-> **Harmônica** `C`
 
 ----
 

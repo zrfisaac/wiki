@@ -1,6 +1,5 @@
 # 📜 Improvisation In Cm
 
-> **Harmônica** `C`
 
 ----
 

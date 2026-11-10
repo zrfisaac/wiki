@@ -1,5 +1,11 @@
 # 🎮 Elden Ring
 
+### 🎮 Descrição do jogo
+RPG de ação em mundo aberto, com exploração, combates difíceis e liberdade para montar o personagem.
+
+### 📖 História
+O Maculado chega às Terras Intermédias após a Fragmentação do Anel Prístino. Sua jornada envolve enfrentar semideuses e decidir o destino do reino.
+
 - [📖 Lore](lore/README)
 - [👤 Ranni](lore/ranni/README)
 - [👤 Melina](lore/melina/README)

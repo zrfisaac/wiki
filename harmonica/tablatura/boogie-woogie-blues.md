@@ -1,6 +1,5 @@
 # 📜 Boogie Woogie Blues
 
-> **Harmônica** `C`
 
 ----
 

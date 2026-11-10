@@ -1,0 +1,15 @@
+# ⚡ Circuito
+
+- [📻 AM](circuito/AM)
+- [📡 Antena](circuito/antena)
+- [🔋 Bateria](circuito/bateria)
+- [〰️ CA](circuito/CA)
+- [➡️ CC](circuito/CC)
+- [📻 FM](circuito/FM)
+- [🔌 MOSFET](circuito/mosfet)
+- [⚡ PEM](circuito/PEM)
+- [📻 Rádio](circuito/radio)
+- [🔌 Resistência](circuito/resistencia)
+- [🛰️ Satélite](circuito/satelite)
+- [🌍 SW](circuito/SW)
+- [🔌 Transistor](circuito/transistor)

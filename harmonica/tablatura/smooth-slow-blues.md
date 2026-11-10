@@ -1,6 +1,5 @@
 # 📜 Smooth Slow Blues
 
-> **Harmônica** `C`
 
 ----
 

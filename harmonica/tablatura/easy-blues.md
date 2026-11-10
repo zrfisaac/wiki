@@ -1,6 +1,5 @@
 # 📜 Easy Blues 
 
-> **Harmônica** `C`
 
 ----
 

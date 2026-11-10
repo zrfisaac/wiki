@@ -1,6 +1,5 @@
 # 📜 Hit The Road Jack
 
-> **Harmônica** `C`
 
 ----
 

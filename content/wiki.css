@@ -98,6 +98,15 @@
     color: var(--theme-color);
 }
 
+.wiki .markdown-section table code {
+    background: transparent !important;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
 .wiki .markdown-section pre > code {
     color: var(--text);
     overflow-wrap: normal;
@@ -124,6 +133,7 @@
     min-height: 44px;
     padding: 10px 16px;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 
 .wiki .wiki-toolbar .button:disabled {
@@ -133,6 +143,7 @@
     color: var(--muted);
     filter: none;
     transform: none;
+    cursor: default;
 }
 
 .wiki .markdown-section > ul.wiki-index {

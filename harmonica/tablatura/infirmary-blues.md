@@ -1,6 +1,5 @@
 # 📜 Infirmary Blues
 
-> **Harmônica** `C`
 
 ----
 

@@ -1,6 +1,5 @@
 # 📜 Ode To Joy
 
-> **Harmônica** `C`
 
 ----
 
