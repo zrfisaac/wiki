@@ -1,9 +1,10 @@
 # 💻 Software
 
-- [🐧 Arch Linux](software/arch)
-- [🐧 Linux Mint](software/mint)
-- [🐧 Manjaro](software/manjaro)
-- [🐧 Ubuntu](software/ubuntu)
-- [🧩 Window Detective](software/window-detective)
+- [🐧 Arch Linux](software/archlinux/README)
+- [🐧 Linux Mint](software/mint/README)
+- [🐧 Manjaro](software/manjaro/README)
+- [🐧 Ubuntu](software/ubuntu/README)
+- [🧩 Window Detective](software/window-detective/README)
+- [🖥️ Windows](software/windows/README)
 
 ----
