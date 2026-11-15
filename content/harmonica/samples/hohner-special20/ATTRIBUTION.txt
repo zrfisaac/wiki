@@ -1,0 +1,2 @@
+Hohner Special 20 harmonica samples in C, sourced from the Versilian Community Sample Library (VCSL), CC0 1.0.
+Source: https://github.com/sgossner/VCSL
