@@ -20,6 +20,12 @@
     const NOTE_DURATION = 0.25;
     const HOLD_PER_EXTRA_SPACE = 0.16;
     const PAUSE_PER_UNDERSCORE = 0.2;
+    const TAB_NOTE_OCTAVE = 0.75;
+
+    function getPlaybackFrequency(note, multiplier) {
+        const octaveMultiplier = /^-?\d/.test(note) ? TAB_NOTE_OCTAVE : 1;
+        return (getNoteFrequency(note) || 261.63) * octaveMultiplier * multiplier;
+    }
 
     function escapeHtml(value) {
         return value.replace(/[&<>'"]/g, (character) => ({
@@ -50,7 +56,7 @@
         const noteEvents = events.filter((event) => event.type === 'note');
         const sampleForNote = new Map();
         noteEvents.forEach((event) => event.notes.forEach((note) => {
-            const frequency = (getNoteFrequency(note) || 261.63) * multiplier;
+            const frequency = getPlaybackFrequency(note, multiplier);
             sampleForNote.set(note, getClosestHarmonicaSample(frequency));
         }));
         try {
@@ -65,7 +71,7 @@
                 }
                 event.notes.forEach((note) => {
                     const sampleName = sampleForNote.get(note);
-                    const frequency = (getNoteFrequency(note) || 261.63) * multiplier;
+                    const frequency = getPlaybackFrequency(note, multiplier);
                     const source = context.createBufferSource();
                     const envelope = context.createGain();
                     source.buffer = buffers.get(sampleName);
