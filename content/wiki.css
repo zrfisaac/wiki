@@ -184,3 +184,26 @@
 .wiki .medium-zoom-image--opened {
     z-index: 9999;
 }
+
+.wiki .wiki-chart {
+    position: relative;
+    width: 100%;
+    height: clamp(260px, 42vw, 420px);
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.wiki .wiki-chart-error {
+    height: auto;
+    color: var(--muted);
+}
+
+@media (max-width: 600px) {
+    .wiki .wiki-chart {
+        height: 300px;
+        padding: 0.5rem;
+    }
+}

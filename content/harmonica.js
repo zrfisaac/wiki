@@ -152,6 +152,22 @@
         return Boolean(tokens && tokens.length && value.replace(tokenPattern, '').trim() === '');
     }
 
+    function expandTabsAtTabStops(code, tabWidth) {
+        return code.split(/(\r\n|\n|\r)/).map((part, index) => {
+            if (index % 2) return part;
+            let column = 0;
+            return [...part].map((character) => {
+                if (character === '\t') {
+                    const spaces = tabWidth - (column % tabWidth);
+                    column += spaces;
+                    return ' '.repeat(spaces);
+                }
+                column += 1;
+                return character;
+            }).join('');
+        }).join('');
+    }
+
     function renderLine(notes, lyric, index, tuning, stanzaBreak) {
         const events = parseEvents(notes);
         const noteMarkup = events.map((event) => {
@@ -278,11 +294,15 @@
     }
 
     function registerPlugin(hook) {
-        hook.beforeEach((markdown) => markdown.replace(/```(harmonica|harmonicac|harmonicag|harmonicaa)\s*\n([\s\S]*?)\n```/gi, (match, language, source, offset, fullMarkdown) => {
-            const beforeBlock = fullMarkdown.slice(0, offset);
-            const stanzaBreak = /(?:\r?\n[ \t]*){3,}$/.test(beforeBlock);
-            return renderBlock(source, language.replace('harmonica', '') || 'c', stanzaBreak);
-        }));
+        hook.beforeEach((markdown) => {
+            const displayMarkdown = markdown.replace(/(^|\r?\n)(```sql[^\r\n]*\r?\n)([\s\S]*?)(\r?\n```)/gi,
+                (match, prefix, openingFence, source, closingFence) => `${prefix}${openingFence}${expandTabsAtTabStops(source, 4)}${closingFence}`);
+            return displayMarkdown.replace(/```(harmonica|harmonicac|harmonicag|harmonicaa)\s*\n([\s\S]*?)\n```/gi, (match, language, source, offset, fullMarkdown) => {
+                const beforeBlock = fullMarkdown.slice(0, offset);
+                const stanzaBreak = /(?:\r?\n[ \t]*){3,}$/.test(beforeBlock);
+                return renderBlock(source, language.replace('harmonica', '') || 'c', stanzaBreak);
+            });
+        });
         hook.doneEach(() => {
             document.querySelector('.harmonica-song-play')?.remove();
             const route = (window.location.hash || '').split('?')[0].toLowerCase();

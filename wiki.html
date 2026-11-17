@@ -13,10 +13,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Wiki pessoal de Isaac Caires Santana.">
 		<title>ZRWIKI</title>
-		<link rel="icon" href="/logo.webp">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/A5yncX/docsify-theme-darcula@v1.0/darcula.css">
-		<link rel="stylesheet" href="/content/fontawesome/css/all.min.css">
-		<link rel="stylesheet" href="/content/style.css?v=20261005-clipboard">
+		<link rel="icon" href="content/site-logo.webp">
+		<link rel="stylesheet" href="content/vendor/darcula.css">
+		<link rel="stylesheet" href="content/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="content/site-style.css?v=20261115-local-assets">
 		<link rel="stylesheet" href="content/wiki.css">
 		<link rel="stylesheet" href="content/harmonica.css?v=20261110-hohner-everywhere-v8">
 	</head>
@@ -24,8 +24,8 @@
     <div class="site-shell">
         <header class="header">
             <div class="container navigation">
-                <a class="brand" href="/">
-                    <img src="/logo.webp" alt="Logo ZRFISAAC">
+				<a class="brand" href="/">
+					<img src="content/site-logo.webp" alt="Logo ZRFISAAC">
                     <span>
                         <strong>ZRF</strong>ISAAC
                         <small>Simples de entender, fácil de usar.</small>
@@ -65,7 +65,7 @@
         <footer id="contato" class="container footer">
             <div>
                 <a class="brand" href="/">
-                    <img src="/logo.webp" alt="">
+					<img src="content/site-logo.webp" alt="">
                     <span><strong>ZRF</strong>ISAAC</span>
                 </a>
                 <p>Simples de entender, fácil de usar.</p>
@@ -97,7 +97,9 @@
         </footer>
     </div>
 
-		<script src="/content/site.js?v=20261005-clipboard" defer></script>
+		<script src="content/site.js?v=20261115-local-assets" defer></script>
+		<script src="content/vendor/chart.umd.min.js"></script>
+		<script src="content/chartjs.js?v=20261116-v5"></script>
 
 		<!-- # : - script -->
 		<script>
@@ -136,6 +138,7 @@
 							}
 						});
 					},
+					window.docsifyChartPlugin,
 				],
 				maxLevel: 0,
 				subMaxLevel: 3,
@@ -153,72 +156,71 @@
 		</script>
 
 		<!-- # : - docsify -->
-		<script src="content/harmonica.js?v=20261110-hohner-everywhere-v8"></script>
-		<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+		<script src="content/harmonica.js?v=20261115-sql-tabstops-v1"></script>
+		<script src="content/vendor/docsify/docsify.min.js"></script>
 
 		<!-- # : - docsify - extra -->
-		<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+		<script src="content/vendor/docsify/zoom-image.min.js"></script>
+		<script src="content/vendor/docsify/search.min.js"></script>
+		<script src="content/vendor/docsify-copy-code/docsify-copy-code.min.js"></script>
 
 		<!-- # : - docsify - code -->
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-apacheconf.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-aspnet.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-batch.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-css.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csv.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cobol.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-dart.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-gdscript.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-git.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-gitignore.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-html.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-lua.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-makefile.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markup.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-mongodb.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nasm.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nsis.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-pascal.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-regex.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ruby.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-rust.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-swift.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-visual-basic.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-wasm.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-core.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-clike.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-markup.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-javascript.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-markup-templating.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-apacheconf.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-aspnet.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-bash.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-batch.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-c.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-csharp.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-cpp.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-css.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-csv.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-cobol.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-dart.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-docker.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-gdscript.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-git.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-go.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-ini.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-java.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-json.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-lua.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-makefile.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-mongodb.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-nasm.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-nsis.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-pascal.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-powershell.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-php.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-python.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-regex.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-ruby.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-rust.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-sql.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-swift.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-typescript.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-visual-basic.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-wasm.min.js"></script>
+		<script src="content/vendor/prismjs/components/prism-yaml.min.js"></script>
 
 		<!-- # : - docsify - katex -->
-		<script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
-		<script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
+		<script src="content/vendor/katex/dist/katex.min.js"></script>
+		<link rel="stylesheet" href="content/vendor/katex/dist/katex.min.css" />
+		<script src="content/vendor/docsify-latex/docsify-latex.min.js"></script>
 
 		<!-- # : - docsify - mermaid -->
-		<script type="module">
-			import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-			mermaid.initialize({
+		<script src="content/vendor/mermaid/mermaid.min.js"></script>
+		<script>
+			window.mermaid.initialize({
 				startOnLoad: true,
 				theme: 'dark'
 			});
-			window.mermaid = mermaid;
 		</script>
-		<script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+		<script src="content/vendor/docsify-mermaid/docsify-mermaid.js"></script>
 
 	</body>
 </html>

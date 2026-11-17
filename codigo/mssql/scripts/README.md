@@ -7,6 +7,7 @@
 - [🧪 Dado](codigo/mssql/scripts/dado/README)
 - [🧰 Dummy](codigo/mssql/scripts/dummy/README)
 - [📊 Estatística](codigo/mssql/scripts/estatistica/README)
+- [⚡ Gatilho](codigo/mssql/scripts/gatilho/README)
 - [📇 Índice](codigo/mssql/scripts/indice/README)
 - [🔗 Ligação](codigo/mssql/scripts/ligacao/README)
 - [📃 Lista](codigo/mssql/scripts/lista/README)
@@ -15,7 +16,6 @@
 - [🛑 Restrição](codigo/mssql/scripts/restricao/README)
 - [🔎 Select](codigo/mssql/scripts/select/README)
 - [📋 Tabela](codigo/mssql/scripts/tabela/README)
-- [⚡ Trigger](codigo/mssql/scripts/trigger/README)
 - [👤 Usuário](codigo/mssql/scripts/usuario/README)
 - [👁️ View](codigo/mssql/scripts/view/README)
 
